@@ -1,7 +1,9 @@
+import "./AppFooter.css";
+
 function AppFooter(): JSX.Element {
   return (
     <footer>
-      <h2>Bye</h2>
+      <h2>By Rajwinder Bhatoe</h2>
     </footer>
   );
 }

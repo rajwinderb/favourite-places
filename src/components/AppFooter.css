@@ -1,0 +1,8 @@
+h2 {
+  background: #ffbccc;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  align-items: center;
+}
