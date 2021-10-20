@@ -1,7 +1,9 @@
+import "./AppHeader.css";
+
 function AppHeader(): JSX.Element {
   return (
     <header>
-      <h2>Hello</h2>
+      <h1>My Favourite Places</h1>
     </header>
   );
 }
