@@ -1,3 +1,4 @@
+import "./MainContent.css";
 import PlaceItem from "./PlaceItem";
 
 function MainContent(): JSX.Element {
@@ -8,7 +9,7 @@ function MainContent(): JSX.Element {
         place={"Rome"}
         country={"Italy"}
         pictureUrl={
-          "https://cdn.getyourguide.com/img/location/535e42f7ac585.jpeg/88.jpg"
+          "https://images.unsplash.com/photo-1558594144-7eeeaa34d22b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2836&q=80"
         }
         picDescription={"Roman Forum views"}
         mapsLink={
@@ -45,7 +46,7 @@ function MainContent(): JSX.Element {
           "https://www.google.com/maps/place/Catedral+de+Sevilla/@37.3858247,-5.9931068,15z/data=!4m5!3m4!1s0x0:0xe49da05de71e6de5!8m2!3d37.3858247!4d-5.9931068"
         }
         description={
-          "Beatiful gothic style Cathedral where Christopher Columbu' tomb is located."
+          "Beatiful gothic style Cathedral where Christopher Columbus' tomb is located."
         }
       />
       <PlaceItem

@@ -1,3 +1,5 @@
+import "./PlaceItem.css";
+
 interface PlaceItemProps {
   title: string;
   place: string;
@@ -10,7 +12,7 @@ interface PlaceItemProps {
 
 function PlaceItem(props: PlaceItemProps): JSX.Element {
   return (
-    <>
+    <div id="place">
       <img src={props.pictureUrl} alt={props.picDescription} />
       <h3>{props.title}</h3>
       <h4>
@@ -19,7 +21,7 @@ function PlaceItem(props: PlaceItemProps): JSX.Element {
         </a>
       </h4>
       <p>{props.description}</p>
-    </>
+    </div>
   );
 }
 

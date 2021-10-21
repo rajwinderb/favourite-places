@@ -1,0 +1,6 @@
+section {
+  background-color: #a7e1f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
