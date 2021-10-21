@@ -13,8 +13,9 @@ interface PlaceItemProps {
 function PlaceItem(props: PlaceItemProps): JSX.Element {
   return (
     <div id="place">
+      <h2>{props.title}</h2>
       <img src={props.pictureUrl} alt={props.picDescription} />
-      <h3>{props.title}</h3>
+
       <h4>
         <a href={props.mapsLink}>
           {props.place}, {props.country}
